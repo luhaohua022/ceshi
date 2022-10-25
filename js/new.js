@@ -1,4 +1,4 @@
-const app = new PIXI.Application(600,900);
+const app = new PIXI.Application(900,1800);
 /*
  *容器对象，可存放显示对象，其实app.stage本身就是一个container。
  *使用container存放各自界面的显示元素，即一个container一个界面。
@@ -62,6 +62,7 @@ close.interactive = true;
 menuItem0.buttonMode = true;
 menuItem0.interactive = true;
 menuItem0.on('click',tojianzhu);
+menuItem0.on('touchstart',tojianzhu);
 
 menuItem1.buttonMode = true;
 menuItem1.interactive = true;
