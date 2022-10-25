@@ -29,30 +29,30 @@ const menuItem1 = new PIXI.Text('历史痕迹',style);
 const menuItem2 = new PIXI.Text('文化遗产',style);
 const bg = new PIXI.Sprite.fromImage('res/bg.jpg');
 
-menuItem0.x = 200;
-menuItem0.y = 500;
+menuItem0.x = 400;
+menuItem0.y = 800;
 
-menuItem1.x = 200;
-menuItem1.y = 650;
+menuItem1.x = 400;
+menuItem1.y = 1000;
 
-menuItem2.x = 200;
-menuItem2.y = 800;
+menuItem2.x = 400;
+menuItem2.y = 1200;
 const  jianzhu= new PIXI.Sprite.fromImage('res/jianzhu.jpg');
 const lishi = new PIXI.Sprite.fromImage('res/lishi.jpg');
 const  yichan= new PIXI.Sprite.fromImage('res/yichan.jpg');
 const close = new PIXI.Sprite.fromImage('res/close.png');
 
-jianzhu.width = 600;
-jianzhu.height = 900;
+jianzhu.width = 900;
+jianzhu.height = 1800;
 
-bg.width = 600;
-bg.height = 900;
+bg.width = 900;
+bg.height = 1800;
 
-yichan.width =600;
-yichan.height = 900;
+yichan.width =900;
+yichan.height = 1800;
 
-lishi.width = 600;
-lishi.height = 900;
+lishi.width = 900;
+lishi.height = 1800;
 
 close.width = 80;
 close.height = 80;
