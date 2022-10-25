@@ -66,11 +66,11 @@ menuItem0.on('touchstart',tojianzhu);
 
 menuItem1.buttonMode = true;
 menuItem1.interactive = true;
-menuItem1.on('click',tolishi);
+menuItem1.on('touchstart',tolishi);
 
 menuItem2.buttonMode = true;
 menuItem2.interactive = true;
-menuItem2.on('click',toyichan);
+menuItem2.on('touchstart',toyichan);
 
 containerMenu.addChild(menuItem0);
 containerMenu.addChild(menuItem1);
@@ -83,17 +83,17 @@ app.stage.addChild(containerMenu);
 function tojianzhu(){
   containerMenu.addChild(jianzhu);
   jianzhu.addChild(close);
-  close.on('click',closejianzhu);
+  close.on('touchstart',closejianzhu);
 }
 function tolishi(){
   containerMenu.addChild(lishi);
   lishi.addChild(close);
-  close.on('click',closelishi);
+  close.on('touchstart',closelishi);
 }
 function toyichan(){
   containerMenu.addChild(yichan);
   yichan.addChild(close);
-  close.on('click',closeyichan);
+  close.on('touchstart',closeyichan);
 }
 
 function closejianzhu(){
