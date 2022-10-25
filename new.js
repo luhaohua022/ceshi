@@ -62,7 +62,7 @@ close.interactive = true;
 menuItem0.buttonMode = true;
 menuItem0.interactive = true;
 menuItem0.on('click',tojianzhu);
-menuItem0.addEventListener('touchstart',tojianzhu,false);
+menuItem0.on('touchstart',tojianzhu);
 
 menuItem1.buttonMode = true;
 menuItem1.interactive = true;
